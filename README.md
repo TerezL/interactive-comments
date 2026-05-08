@@ -1,16 +1,47 @@
-# React + Vite
+# Interactive Comments 💬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Responsive interactive comments section built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project simulates a modern comment system with nested replies and interactive UI features.
 
-## React Compiler
+Users can:
+- Add comments
+- Reply to comments
+- Edit comments
+- Delete comments
+- Interact with nested replies
+- Use the application on desktop and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshot
 
-## Expanding the ESLint configuration
+![Interactive Comments Preview](./preview.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- React
+- Tailwind CSS
+- Vite
+
+## Features
+
+- Fully responsive layout
+- Reusable components
+- Dynamic comment rendering
+- Modal interactions
+- State management with React hooks
+- Clean modern UI
+
+## Installation
+
+npm install
+npm run dev
+
+## Live Demo
+
+(https://terezl.github.io/interactive-comments/)
+
+## Author
+
+GitHub: https://github.com/TerezL
